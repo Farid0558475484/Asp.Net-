@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "/Users/xamyak/.dotnet/store/|arch|/|tfm|",
+      "/Users/xamyak/.nuget/packages"
+    ]
+  }
+}
