@@ -106,5 +106,7 @@
 /Users/xamyak/Desktop/asp1/asp1/obj/Debug/netcoreapp3.1/Razor/Views/Home/Index.cshtml.g.cs
 /Users/xamyak/Desktop/asp1/asp1/obj/Debug/netcoreapp3.1/asp1.RazorTargetAssemblyInfo.cs
 /Users/xamyak/Desktop/asp1/asp1/obj/Debug/netcoreapp3.1/asp1.Views.pdb
-/Users/xamyak/Desktop/asp1/asp1/obj/Debug/netcoreapp3.1/Razor/Views/Home/About.cshtml.g.cs
 /Users/xamyak/Desktop/asp1/asp1/obj/Debug/netcoreapp3.1/Razor/Views/Shared/_Layout.cshtml.g.cs
+/Users/xamyak/Desktop/asp1/asp1/obj/Debug/netcoreapp3.1/Razor/Views/Home/About.cshtml.g.cs
+/Users/xamyak/Desktop/asp1/asp1/obj/Debug/netcoreapp3.1/Razor/Views/_ViewStart.cshtml.g.cs
+/Users/xamyak/Desktop/asp1/asp1/obj/Debug/netcoreapp3.1/Razor/Views/_ViewImports.cshtml.g.cs

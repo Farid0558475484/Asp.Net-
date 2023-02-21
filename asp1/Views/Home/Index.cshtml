@@ -1,7 +1,21 @@
+@using asp1.Models;
+@model List<Student>;
+
 @{
     Layout = "_Layout";
 }
 
 
-<h1>Home Index</h1>
+<div class="container">
+    <div class="row">
+        <ul class="list-group">
+            @foreach (var item in Model)
+            {
+    
+                    <li class="list-group-item">@item.Id @item.Name @item.Surname @item.Surname</li>
+     
+            }
+        </ul>
+    </div>
+</div>
 
