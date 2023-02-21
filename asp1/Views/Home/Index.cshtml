@@ -1,21 +1,37 @@
-@using asp1.Models;
-@model List<Student>;
+@*@using asp1.ViewModels;
+@model HomeVW;*@
 
 @{
+    ViewData["Title"] = "Index";
     Layout = "_Layout";
 }
 
 
-<div class="container">
+
+<p>@ViewData["Name"]</p>
+<p>@ViewBag.Surname</p>
+<p>@TempData["25"]</p>
+
+@*<div class="container">
     <div class="row">
         <ul class="list-group">
-            @foreach (var item in Model)
+            @foreach (var item in Model.Students)
+
             {
-    
-                    <li class="list-group-item">@item.Id @item.Name @item.Surname @item.Surname</li>
-     
+
+                <li class="list-group-item">@item.Id @item.Name @item.Surname </li>
+
+            }
+        </ul>
+
+        <ul class="list-group">
+            @foreach (var item in Model.Groups)
+            {
+
+                <li class="list-group-item">@item.Id @item.Name  </li>
+
             }
         </ul>
     </div>
-</div>
+</div>*@
 
