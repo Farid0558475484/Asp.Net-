@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "0cPelqNzLEt/eHKJGIr+b2tbFZeif62q1zhK1KqQ088GevKtkdCWMgpxK23pGj78tav/MwSNPyPBZ9dqvV3dsg==",
+  "success": true,
+  "projectFilePath": "/Users/xamyak/Desktop/asp1/asp1/asp1.csproj",
+  "expectedPackageFiles": [
+    "/Users/xamyak/.nuget/packages/microsoft.aspnetcore.app.ref/3.1.10/microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "/Users/xamyak/.nuget/packages/microsoft.netcore.app.host.osx-x64/3.1.32/microsoft.netcore.app.host.osx-x64.3.1.32.nupkg.sha512",
+    "/Users/xamyak/.nuget/packages/microsoft.netcore.app.ref/3.1.0/microsoft.netcore.app.ref.3.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
