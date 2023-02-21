@@ -9,7 +9,14 @@
 
 
 <p>@ViewData["Name"]</p>
-<p>@ViewBag.Surname</p>
+<ul>
+    @foreach (var item in ViewBag.Surname)
+        {
+            <li>
+                @item.Surname
+            </li>
+        }
+</ul>
 <p>@TempData["25"]</p>
 
 @*<div class="container">

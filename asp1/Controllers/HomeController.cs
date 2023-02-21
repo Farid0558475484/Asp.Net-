@@ -15,7 +15,8 @@ namespace asp1.Controllers
 
 
             ViewData["Name"] = "Farid";
-            ViewBag.Surname = "Hacizade";
+            ViewBag.Surname = GetStudents();
+          
             TempData["25"] = 25;
             //return Content("hello");
             //return Json(new{
@@ -33,7 +34,9 @@ namespace asp1.Controllers
 
             //return View(homeVW);
 
-            return View();
+            //return View();
+
+            return RedirectToAction("About");
         }
 
 
