@@ -15,7 +15,16 @@ namespace asp1.Controllers
             //    name="Farid",
             //    age=25
             //});
-            return File("~/img/lorem.jpeg", "image/jpeg");
+            //return File("~/img/lorem.jpeg", "image/jpeg");
+
+
+            return View();
+        }
+
+
+        public IActionResult About()
+        {
+            return View();
         }
     }
 }
